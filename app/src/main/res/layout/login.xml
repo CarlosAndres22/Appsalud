@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="-43dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="260dp"
+            android:src="@drawable/oso"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteY="-17dp"
+            android:layout_above="@+id/textView5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="12dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout2">
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/registrar"
+            android:layout_width="151dp"
+            android:layout_height="49dp"
+
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="29dp"
+            android:layout_marginStart="29dp"
+            android:text="Registrese aqui"
+            android:theme="@style/RaisedButtonDark" />
+
+        <Button
+            android:id="@+id/BtnSalir"
+            android:layout_width="176dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/editText2"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/registrar"
+            android:layout_toRightOf="@+id/registrar"
+            android:layout_weight="0.54"
+            android:text="Salir"
+            android:theme="@style/RaisedButtonDark" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editText2"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="Usuario"
+            android:inputType="numberPassword"
+            android:theme="@style/EditTextWhite" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/registrar"
+            android:layout_alignLeft="@+id/editText"
+            android:layout_alignStart="@+id/editText"
+            android:ems="10"
+            android:hint="Contrasena"
+
+            android:inputType="numberPassword"
+            android:textColor="@color/editTextColorWhite"
+            android:theme="@style/EditTextWhite" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="Bienvenidos!"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

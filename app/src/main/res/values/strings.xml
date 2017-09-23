@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">App de Salud</string>
+    <string name="radio_male">Genero Masculino</string>
+    <string name="radio_female">Genero Femenino</string>
+</resources>

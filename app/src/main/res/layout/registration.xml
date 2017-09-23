@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    >
+
+    <AbsoluteLayout
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="9dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.12"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_x="225dp"
+            android:layout_y="209dp"
+
+            android:text="Masculino" />
+
+        <TextView
+            android:id="@+id/textEdad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:layout_x="21dp"
+            android:layout_y="343dp"
+            android:text="Telefono"
+            android:textSize="18sp"
+             />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_weight="0.11"
+            android:layout_x="42dp"
+            android:layout_y="29dp"
+            android:text="INFORMACION PERSONAL"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="16dp"
+             />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginLeft="10dp"
+            android:layout_x="19dp"
+            android:layout_y="95dp"
+            android:text="Nombre"
+            android:textSize="18sp"
+            tools:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/TextNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginLeft="10dp"
+            android:layout_x="19dp"
+            android:layout_y="154dp"
+            android:text="Apellidos"
+            android:textSize="18sp"
+            tools:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/CampoApellido"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="0.12"
+            android:layout_x="134dp"
+            android:layout_y="148dp"
+            android:ems="10"
+            android:theme="@style/EditTextWhite"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="52dp" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_x="113dp"
+            android:layout_y="210dp"
+            android:text="Femenino" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="59dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.04"
+            android:layout_x="17dp"
+            android:layout_y="216dp"
+            android:text="Genero"
+            android:textSize="18sp"
+            tools:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/textEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.34"
+            android:layout_x="29dp"
+            android:layout_y="295dp"
+            android:text="Email"
+            android:textSize="18sp"
+            tools:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/CampoEmail"
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:layout_x="137dp"
+            android:layout_y="278dp"
+            android:ems="10"
+            android:theme="@style/EditTextWhite"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/textAdiconal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.45"
+            android:layout_x="23dp"
+            android:layout_y="400dp"
+            android:text="Direccion"
+            android:textSize="18sp"
+            tools:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/CampoNombre"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_x="135dp"
+            android:layout_y="85dp"
+            android:ems="10"
+            android:theme="@style/EditTextWhite"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="52dp" />
+
+        <RadioGroup
+            android:id="@+id/RadioOptions"
+            android:layout_width="220dp"
+            android:layout_height="42dp"
+            android:layout_weight="0.94"
+            android:layout_x="116dp"
+            android:layout_y="203dp">
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/CampoTelefono"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.79"
+            android:layout_x="138dp"
+            android:layout_y="332dp"
+            android:ems="10"
+            android:inputType="number"
+            android:theme="@style/EditTextWhite" />
+
+        <EditText
+            android:id="@+id/CampoDireccion"
+            android:layout_width="207dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_x="138dp"
+            android:layout_y="385dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:theme="@style/EditTextWhite" />
+
+        <Button
+            android:id="@+id/Enviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="153dp"
+            android:layout_y="485dp"
+            android:text="Guardar"
+            android:theme="@style/RaisedButtonDark"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="309dp" />
+
+
+    </AbsoluteLayout>
+
+</android.support.constraint.ConstraintLayout>
